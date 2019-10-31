@@ -1,0 +1,43 @@
+php artisan make:migration create_clientes_table --create=clientes
+//seta o schema na migrations
+
+php artisan make:model cliente
+
+php artisan tinker // Interface por linha de comando p/
+acessar o projeto pelo terminal
+
+php artisan make:auth
+
+CRUD1-
+composer require --dev barryvdh/laravel-ide-helper
+
+Barryvdh \ LaravelIdeHelper \ IdeHelperServiceProvider :: class, /EM CONFIG\APP
+
+
+CRUD AULA 2
+php artisan ide-helper:generate
+
+ "laravelcollective/html":"^5.2.*" no composer.json
+
+ php artisan ide-helper:generate
+
+ CRUD AULA 3 - https://www.youtube.com/watch?v=MZA-P_D1xIk&list=PLInBAd9OZCzylabwvLeJIa9gxbS7MmzNY&index=9
+
+ CRUD AULA 4
+
+ @extends('layouts.app')
+
+ @section('content')
+     <div class="container">
+         <div class="row justify-content-center">
+             <div class="col-md-8">
+                 <div class="card">
+                     <div class="card-header">Clientes
+                         <a class="pull-right" href="{{url('clientes/novo')}}">Novo cliente</a>
+
+
+
+
+
+
+
