@@ -19,7 +19,7 @@ class ClientesController extends Controller
 
     public function salvar (Request $request)
     {
-        $cliente = new cliente();
+        $cliente = new Cliente();
 
         $cliente = $cliente->create($request->all());
 
