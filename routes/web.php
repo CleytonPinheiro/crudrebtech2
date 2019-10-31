@@ -1,8 +1,8 @@
 <?php
 
-Route::get('/usuarios','UsuariosController@index');
+    Route::get('usuarios','UsuariosController@index');
 
-Route::group(['middleware' => 'web'], function() {
+    Route::group(['middleware' => 'web'], function() {
     Route::get('/', 'HomeController@index');
     //Auth::routes();
     Route::auth();
