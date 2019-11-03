@@ -12,7 +12,6 @@ class ClientesController extends Controller
         $clientes = cliente::get();
         return view('clientes.lista',['clientes'=> $clientes]);
     }
-
     public function novo ()  {
         return view('clientes.formulario');
     }
@@ -38,20 +37,20 @@ class ClientesController extends Controller
 
     public function atualizar($id, Request $request)
     {
-        $cliente = cliente::findOrFail($id);
+        $cliente = Cliente::findOrFail($id);
         $cliente->update($request->all());
         \Session::flash('mensagem_sucesso','Cliente atualizado com sucesso');
-        return \Redirect::to('clientes/'. $cliente->id. '/editar');
+        return Redirect::to('clientes/'. $cliente->id. '/editar');
 
     }
 
     public function deletar($id)
     {
-        $cliente = cliente::findOrFail($id);
+        $cliente = Cliente::findOrFail($id);
         $cliente->delete();
 
         \Session::flash('mensagem_sucesso','Cliente deletado com sucesso');
 
-        return \Redirect::to('clientes');
+        return Redirect::to('clientes');
     }
 }

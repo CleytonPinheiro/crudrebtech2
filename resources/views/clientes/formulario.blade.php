@@ -13,7 +13,7 @@
                         <div class="alert alert-success">{{Session::get('mensagem_sucesso')}}@endif
                     @endif
                             @if(Request::is('*/editar')) //** Vinculando modelo com o form, usando mesmo form, ao atualizar ou salvar executa funções especificas.
-                            {!! Form::model($cliente,['method'=>'PATCH' ,'url'=>'clientes/atualizar'. $cliente->id]) !!}
+                            {!! Form::model($cliente,['method'=>'PATCH' ,'url'=>'clientes'. $cliente->id]) !!}
                             @else
                                 {!! Form::open(['url'=>'clientes/salvar']) !!}
                             @endif

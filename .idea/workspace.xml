@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece995dd-4456-4a7f-90ac-c667adddd3d0" name="Default Changelist" comment="" />
+    <list default="true" id="ece995dd-4456-4a7f-90ac-c667adddd3d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/formulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/formulario.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/lista.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/lista.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +157,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,6 +213,7 @@
       <workItem from="1572454723159" duration="2247000" />
       <workItem from="1572531451237" duration="6036000" />
       <workItem from="1572543007265" duration="691000" />
+      <workItem from="1572799815137" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Correção formulário.blade">
       <created>1572534160128</created>

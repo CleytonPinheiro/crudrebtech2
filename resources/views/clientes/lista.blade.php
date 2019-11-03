@@ -11,7 +11,7 @@
 
                     <div class="panel-body">
                         @if(Session::has('mensagem_sucesso'))
-                            <div class="alert alert-success">{{Session::get('mensagem_sucesso')}}
+                            <div class="alert alert-success">{{Session::get('mensagem_sucesso')}}</div>
                         @endif
                         <table class="table">
                             <th>Nome</th>
